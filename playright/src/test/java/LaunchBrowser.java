@@ -17,7 +17,6 @@ public class LaunchBrowser {
         String title = page.title();
         System.out.println("page title:" + title);
 
-
         page.close();
         launch.close();
         playwright.close();
